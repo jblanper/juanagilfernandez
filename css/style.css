@@ -41,16 +41,20 @@ ol {list-style-position:inside;}
 
 .hovered {
   display: none;
-  font-size: 92%;
+  font-family: Georfia, sans-serif;
+  font-size: 100%;
 }
 
 .not-hovered {font-family: 'Open Sans', sans-serif;}
-.hovered {font-family: Georfia, sans-serif;}
 
 a:hover > .not-hovered, h1:hover > .not-hovered {display: none;}
+
 a:hover > .hovered, h1:hover > .hovered {display: inline;}
-a:hover {margin: -1px;}
-.active a:hover {margin: 0;}
+
+.active a {
+  background-color: #983626 !important;
+  color: #fff !important;
+}
 
 .navbar-default {
   background-color: #fff;
@@ -86,11 +90,6 @@ hr {
   border-color: #983626;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-}
-
-.active a {
-  background-color: #983626 !important;
-  color: #fff !important;
 }
 
 #sidebar ul {width: 255px;}
