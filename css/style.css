@@ -1,0 +1,138 @@
+﻿body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+#foto-juana {
+  margin: 0 auto
+}
+
+.lead {font-size: 115%;}
+
+#presentacion {margin-top: 1em;}
+
+strong {
+  font-weight: 600;
+  color: #555;
+}
+
+@media (max-width: 1199.5px) and (min-width: 992px) {
+  #presentacion {
+    margin-top: 0;
+    font-size: 105%;
+  }
+}
+
+#book-images {padding: 2% 0;}
+
+.intro {padding-bottom: 1em;}
+
+ul li, ol li {padding-bottom: 1em;}
+
+nav li {padding-bottom: 0;}
+
+.with_bullet li {padding-bottom: 0;}
+
+ul {list-style-type: square;}
+
+ol {list-style-position:inside;}
+
+.without_bullet {list-style-type: none;}
+
+.hovered {
+  display: none;
+  font-size: 92%;
+}
+
+.not-hovered {font-family: 'Open Sans', sans-serif;}
+.hovered {font-family: Georfia, sans-serif;}
+
+a:hover > .not-hovered, h1:hover > .not-hovered {display: none;}
+a:hover > .hovered, h1:hover > .hovered {display: inline;}
+a:hover {margin: -1px;}
+.active a:hover {margin: 0;}
+
+.navbar-default {
+  background-color: #fff;
+  border: 0;
+  border-bottom: 3px solid #983626;
+  border-radius: 0;
+}
+
+.navbar-toggle {
+  background-color: #983626;
+  border: 0
+}
+
+.icon-bar {background-color: #FFF !important;}
+
+.navbar-collapse {padding-left:0;}
+
+h1, h2, h3, h4, h5 {
+  color: #983626;
+  margin-bottom: 0.8em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {font-size: 190%;}
+
+h3 {padding-bottom: 0.5em;}
+
+h4 {padding-bottom: 1em;}
+
+h5 {padding-bottom: 0.5em;}
+
+hr {
+  border-color: #983626;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.active a {
+  background-color: #983626 !important;
+  color: #fff !important;
+}
+
+#sidebar ul {width: 255px;}
+
+@media (max-width: 1200px) {
+  #sidebar ul {width: 200px;}
+}
+
+#sidebar a {
+  color: #8A8B8C;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  /*border-bottom: 2px solid #fff;*/
+  font-size: 80%;
+  padding-left: 4px;
+}
+
+#sidebar a:hover, #sidebar a:focus {
+  background-color: #fff;
+  /*border-bottom: 2px solid #8A8B8C;*/
+  border-left: 2px solid #8A8B8C;
+  padding-left: 3px;
+}
+
+#sidebar .active a {
+  color: #983626 !important;
+  background-color: #fff !important;
+  border-left: 2px solid #983626;
+  padding-left: 3px;
+}
+
+#sidebar #arriba:hover, #sidebar #arriba:focus, #sidebar .active #arriba {
+  color: #8A8B8C !important;
+  border: 0 !important;
+}
+
+.entrada {
+  padding-bottom: 2em !important;
+  padding-left: 3em;
+}
+
+/* #983626 */
+/* #98264f */
+/* #666 */
