@@ -42,8 +42,10 @@ ol {list-style-position:inside;}
 .hovered {
   display: none;
   font-family: Georfia, sans-serif;
-  font-size: 100%;
+  font-size: 115%;
 }
+
+h1 .hovered {font-size: 100%;}
 
 .not-hovered {font-family: 'Open Sans', sans-serif;}
 
