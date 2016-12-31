@@ -143,6 +143,11 @@ hr {
   padding-left: 3em;
 }
 
+@media (max-width: 1200px) and (min-width: 992px) {
+  .navbar-nav > li {font-size: 80%;}
+  .navbar-default .navbar-nav li a {color: #222;}
+}
+
 /* #983626 */
 /* #98264f */
 /* #666 */
