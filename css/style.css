@@ -25,6 +25,11 @@ strong {
 
 #book-images {padding: 2% 0;}
 
+.book-img {
+    max-width: 90%;
+    padding: 5%;
+}
+
 .intro {padding-bottom: 1em;}
 
 ul li, ol li {padding-bottom: 1em;}
