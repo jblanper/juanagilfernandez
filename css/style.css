@@ -25,9 +25,13 @@ strong {
 
 #book-images {padding: 2% 0;}
 
+#book-images > div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .book-img {
-    max-width: 90%;
-    padding: 5%;
+    max-width: 100%;
 }
 
 .intro {padding-bottom: 1em;}
